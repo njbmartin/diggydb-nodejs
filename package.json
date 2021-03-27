@@ -1,6 +1,6 @@
 {
   "name": "diggydb-nodejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use Amazon Route53 as a super fast and reliable DB 🚀",
   "main": "dist/index.js",
   "types": "./lib/index.d.ts",
