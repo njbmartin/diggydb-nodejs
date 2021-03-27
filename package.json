@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "start": "ts-node example",
-    "build": "tsc --build --clean",
+    "build": "tsc",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
   "devDependencies": {
