@@ -21,7 +21,7 @@ const queryTable = async (table: string) => {
 
   console.time("db.queryTable")
 
-  const tableResult = await db.queryTable(table)
+  const tableResult = await db.queryTable<Framework[]>(table)
 
   console.log("table:", `"${table}"`)
   console.table(tableResult)
