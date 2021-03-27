@@ -21,6 +21,14 @@
     "build": "tsc",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
+  "keywords": [
+    "diggydb",
+    "database",
+    "documentdb",
+    "node",
+    "aws",
+    "route53"
+  ],
   "devDependencies": {
     "@release-it/conventional-changelog": "^2.0.1",
     "@types/node": "^14.14.36",
